@@ -5,7 +5,8 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  update:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
       - uses: JasonEtco/rss-to-readme@v1
@@ -14,3 +15,4 @@ jobs:
           readme-section: feed
           max: 5
           template: "* [{{ title }}]({{ link }})"
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
