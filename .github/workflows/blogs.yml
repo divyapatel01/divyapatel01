@@ -9,10 +9,7 @@ jobs:
     name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - uses: JasonEtco/rss-to-readme@v1
+      - uses: actions/checkout@v2
         with:
-          feed-url: https://codewithdiv.wordpress.com/feed/
-          readme-section: feed
-          max: 5
-          template: "* [{{ title }}]({{ link }})"
-          gh_token: ${{ secrets.GITHUB_TOKEN }}
+          feed_list: https://codewithdiv.wordpress.com/feed/
+          max_post_count: 5
