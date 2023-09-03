@@ -59,8 +59,8 @@
 
 <h3 align="left">📙 Recent Blog Posts:</h3>
 <hr/>
-<!--START_SECTION:feed-->
-<!--END_SECTION:feed-->
+<!--BLOG:START-->
+<!--BLOG:END-->
 <br/>
 
 <h3 align="left">Support:</h3>
