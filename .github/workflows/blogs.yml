@@ -3,13 +3,17 @@ on:
   schedule:
     # Runs at 00:00 UTC every day.
     - cron: "0 0 * * *"
-
+permissions:
+  contents: write # To write the generated contents to the readme
 jobs:
   update-readme-with-blog:
     name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Pull in posts
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: https://codewithdiv.wordpress.com/feed/
+          feed_list: "https://codewithdiv.wordpress.com/feed/"
           max_post_count: 5
