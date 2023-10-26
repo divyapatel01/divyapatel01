@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Divya Patel</h1>
-<h3 align="center">A passionate MERN stack developer from India</h3>
+<h3 align="center">I focus on both Web Design and Web Development</h3>
 
 <br />
 
 - 📝 I regularly write articles on [https://codewithdiv.wordpress.com/](https://codewithdiv.wordpress.com/)
 
-- 💬 Ask me about **ReactJS, NodeJS, Extress, MongoDB, Javascript, HTML, CSS, Wordpress**
+- 💬 Ask me about **ReactJS, NextJS, NodeJS, Extress, MongoDB, Javascript, HTML, CSS, SCSS, ANT Design, etc.**
 
 - 📫 How to reach me **divyapatel1697@gmail.com**
 
@@ -55,17 +55,11 @@
 <a href="https://vuetifyjs.com/en/" target="_blank" rel="noreferrer"> <img src="https://bestofjs.org/logos/vuetify.svg" alt="vuetify" width="40" height="40"/> </a>
 </p>
 
-<br/>
-
-<h3 align="left">📙 Recent Blog Posts:</h3>
-<hr/>
-<!--BLOG:START-->
-<!--BLOG:END-->
-<br/>
-
+<!--
 <h3 align="left">Support:</h3>
 <hr/>
 <p><a href="https://www.buymeacoffee.com/divyapatel"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="divyapatel" /></a></p>
+-->
 
 <!--
 **divyapatel01/divyapatel01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
