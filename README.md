@@ -3,7 +3,7 @@
 
 <br />
 
-- 📝 I regularly write articles on [https://codewithdiv.wordpress.com/](https://codewithdiv.wordpress.com/)
+- 📝 I regularly write articles on [https://codewithdivya.wordpress.com/](https://codewithdivya.wordpress.com/)
 
 - 💬 Ask me about **ReactJS, NextJS, NodeJS, Extress, MongoDB, Javascript, HTML, CSS, SCSS, ANT Design, etc.**
 
